@@ -1,0 +1,14 @@
+{
+  "name": "the-interns-hub",
+  "version": "2.0.0",
+  "description": "The Interns Hub — Time clock, messaging, announcements, and admin tools",
+  "private": true,
+  "scripts": {
+    "dev": "npx live-server --port=3000 --host=localhost .",
+    "build": "node build.js",
+    "preview": "npx live-server --port=4000 dist/"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
